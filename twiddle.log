@@ -1,0 +1,28 @@
+15:04:19,202 DEBUG [Twiddle] args[0]=-s
+15:04:19,203 DEBUG [Twiddle] args[1]=localhost
+15:04:19,203 DEBUG [Twiddle] args[2]=invoke
+15:04:19,203 DEBUG [Twiddle] args[3]=linebuster:service=QueueManager
+15:04:19,203 DEBUG [Twiddle] args[4]=refreshManagedQueues
+15:04:19,208 DEBUG [Twiddle] Command name: invoke
+15:04:19,211 DEBUG [Twiddle] Command arguments: linebuster:service=QueueManager,refreshManagedQueues
+15:04:19,211 DEBUG [Twiddle] command proto type properties: jar:file:/usr/local/jboss-4.2.3/bin/twiddle.jar!/org/jboss/console/twiddle/commands.properties
+15:04:19,215 DEBUG [Twiddle] Adding command 'jsr77'; proto: org.jboss.console.twiddle.command.JSR77Command@433c675d
+15:04:19,218 DEBUG [Twiddle] Adding command 'xmbean'; proto: org.jboss.console.twiddle.command.XMBeanCommand@37bba400
+15:04:19,220 DEBUG [Twiddle] Adding command 'info'; proto: org.jboss.console.twiddle.command.InfoCommand@5d099f62
+15:04:19,221 DEBUG [Twiddle] Adding command 'get'; proto: org.jboss.console.twiddle.command.GetCommand@20ad9418
+15:04:19,222 DEBUG [Twiddle] Adding command 'invoke'; proto: org.jboss.console.twiddle.command.InvokeCommand@1d56ce6a
+15:04:19,222 DEBUG [Twiddle] Adding command 'create'; proto: org.jboss.console.twiddle.command.CreateCommand@2e0fa5d3
+15:04:19,223 DEBUG [Twiddle] Adding command 'setattrs'; proto: org.jboss.console.twiddle.command.SetAttrsCommand@7daf6ecc
+15:04:19,224 DEBUG [Twiddle] Adding command 'unregister'; proto: org.jboss.console.twiddle.command.UnregisterCommand@31221be2
+15:04:19,225 DEBUG [Twiddle] Adding command 'query'; proto: org.jboss.console.twiddle.command.QueryCommand@21b8d17c
+15:04:19,225 DEBUG [Twiddle] Adding command 'set'; proto: org.jboss.console.twiddle.command.SetCommand@6267c3bb
+15:04:19,226 DEBUG [Twiddle] Adding command 'serverinfo'; proto: org.jboss.console.twiddle.command.ServerInfoCommand@7a07c5b4
+15:04:19,227 DEBUG [InvokeCommand] processing arguments: linebuster:service=QueueManager,refreshManagedQueues
+15:04:19,227 DEBUG [InvokeCommand] query: linebuster:service=QueueManager
+15:04:19,227 DEBUG [InvokeCommand] operation name: refreshManagedQueues
+15:04:19,227 DEBUG [InvokeCommand] operation arguments: []
+15:04:19,832 DEBUG [SecurityAssociation] Using ThreadLocal: false
+15:04:19,849 DEBUG [InvokeCommand] Query matches: [linebuster:service=QueueManager]
+15:04:19,849 DEBUG [InvokeCommand] Invoke linebuster:service=QueueManager
+15:04:19,867 DEBUG [InvokeCommand] Using params: 
+15:04:29,035 DEBUG [InvokeCommand] Raw result: null
